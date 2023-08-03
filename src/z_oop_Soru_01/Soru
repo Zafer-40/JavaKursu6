@@ -1,0 +1,23 @@
+
+    Soru: Bir hayvanat bahçesi uygulaması yapmanız gerekiyor.
+    Bu hayvanat bahçesinde farklı türlerde hayvanlar var, örneğin "Aslan", "Fil" ve "Kartal".
+    Her hayvanın adı, yaşam alanı ve sesi farklıdır.
+    Ayrıca hayvanların beslenme ihtiyacı vardır ve her hayvanın beslenme şekli farklıdır.
+    Aslanlar et yer, filler ot yer ve kartallar balık yer.
+
+    Bu senaryoyu OOP prensipleri kullanarak tasarlayın ve sınıfları oluşturun:
+    "Hayvan", "Aslan", "Fil" ve "Kartal".
+
+    Her sınıfın yapıcı (constructor) metodu olsun ve hayvanın özelliklerini parametre
+    olarak alarak nesne oluşturabilsin.
+
+    Her hayvan türü için ortak bir metodun (örneğin "sesCikar()") olduğu bir arayüz (interface)
+    oluşturun ve bu arayüzü sınıflara implement edin.
+
+    Her hayvanın adını ve yaşam alanını ekrana yazdıran "bilgileriYazdir()" adında bir metot ekleyin.
+
+    Her hayvanın beslenme ihtiyacını belirten "beslen()" adında bir metot ekleyin
+    ve her hayvanın kendi beslenme şekline göre bu metodu uygulayın.
+
+    Main sınıfında, farklı hayvanları temsil eden nesneler oluşturun,
+    bilgileri ekrana yazdırın ve beslenme ihtiyaçlarını karşılayın.

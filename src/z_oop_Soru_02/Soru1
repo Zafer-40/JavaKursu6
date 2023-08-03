@@ -1,0 +1,22 @@
+Soru: Bir oyun karakteri oluşturmak için bir "Karakter" sınıfı yapmanız gerekiyor.
+Bu karakterler farklı türlerde olabilir, örneğin "Savaşçı", "Büyücü" ve "Hırsız".
+Her karakterin adı, seviyesi ve sağlık puanı gibi özellikleri vardır.
+Ayrıca, karakterlerin özel yetenekleri vardır ve her karakter türü için farklı yetenekler bulunur.
+
+Bu senaryoyu OOP prensipleri kullanarak tasarlayın ve "Karakter" sınıfını oluşturun.
+
+"Karakter" sınıfının yapıcı (constructor) metodu olsun ve karakterin özelliklerini
+parametre olarak alarak nesne oluşturabilsin.
+
+"Karakter" sınıfında karakterin adını, seviyesini ve sağlık puanını ekrana yazdıran
+"bilgileriYazdir()" adında bir metot ekleyin.
+
+"Karakter" sınıfından türetilen "Savasci", "Buyucu" ve "Hirsiz" sınıflarını oluşturun.
+Bu sınıflar, "Karakter" sınıfının özelliklerine ek olarak kendi özgü özelliklere sahip olsun
+(örneğin savaşçının gücü, büyücünün mana puanı, hırsızın hızı).
+
+Her sınıf için özel yetenekleri belirten ve bu yeteneği kullanarak sağlık puanını artıran
+"ozelYetenekKullan()" adında bir metot ekleyin.
+
+Main sınıfında, farklı karakterleri temsil eden nesneler oluşturun, bilgilerini yazdırın ve
+özel yeteneklerini kullanarak sağlık puanlarını artırın.
